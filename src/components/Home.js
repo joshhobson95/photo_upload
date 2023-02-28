@@ -1,5 +1,6 @@
 import React from 'react'
 import UploadWidget from './UploadWidget'
+import CloudinaryGallery from './CloudinaryGallery'
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
         </p>
     <div className='widget'>
         <UploadWidget/>
+        <CloudinaryGallery />
     </div>
     </div>
   )
